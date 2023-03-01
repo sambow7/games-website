@@ -1,0 +1,23 @@
+/*selector {
+  property: value;
+}*/
+
+body {
+  background-color: rgb(86, 53, 148);
+  cursor: pointer;
+
+}
+
+li {
+  color: rgb(7, 246, 31);
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  border-style: outset;
+  border-radius: 10%;
+
+  
+  
+}
