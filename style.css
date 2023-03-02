@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(86, 53, 148);
-  cursor: pointer;
+
 
 }
 
@@ -16,8 +16,41 @@ li {
 
 img {
   border-style: outset;
-  border-radius: 10%;
+  border-radius: 10px;
+  object-fit: scale-down;
 
-  
-  
+}
+
+.video-game-button {
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(45, 229, 76);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(45, 229, 76);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  cursor: crosshair;
+  transition: background-color 0.15s,
+    color 0.15s;
+  vertical-align: top;
+}
+
+.board-game-button {
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(45, 229, 76);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(45, 229, 76);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  cursor: crosshair;
+  transition: background-color 0.15s,
+    color 0.15s;
+  vertical-align: top;
 }
