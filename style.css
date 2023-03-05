@@ -1,3 +1,11 @@
+
+header {
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
 body {
   background-color: rgb(86, 53, 148);
 
@@ -15,8 +23,6 @@ li {
   border-radius: 10px;
   object-fit: scale-down;
   height: 170px;
-
-
 }
 
 #board-game-img {
@@ -150,9 +156,8 @@ li {
   padding-right: 16px;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.15s,
-    color 0.15s;
   vertical-align: top;
+  margin: 20px;
 }
 
 .board-game-button {
@@ -167,9 +172,8 @@ li {
   padding-right: 16px;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.30s,
-    color 0.15s;
   vertical-align: top;
+  margin: 20px;
 }
 
 .home-button {
@@ -184,11 +188,6 @@ li {
   padding-right: 16px;
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.15s,
-    color 0.15s;
   vertical-align: top;
-}
-
-header {
-  padding: 20px;
+  margin: 20px;
 }
