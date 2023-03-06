@@ -1,7 +1,7 @@
 header {
   padding: 20px;
   margin: 20px;
-  
+
 }
 
 
@@ -17,17 +17,23 @@ li {
   font-family: 'Courier New', Courier, monospace;
 }
 
+#video-game-img {
+  height: 40%;
+}
+
 #body-index2 {
   background-image: url(images/luis-villasmil-ITFwHdPEED0-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat background-position: right top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
   background-attachment: scroll;
 }
 
 #body-index3 {
   background-image: url(images/dave-photoz-FdTmaUlEr4A-unsplash.jpg);
   background-size: cover;
-  background-repeat: no-repeat background-position: right top;
+  background-repeat: no-repeat;
+  background-position: right top;
   background-attachment: scroll;
 }
 
@@ -61,6 +67,12 @@ li {
   margin: 20px;
 }
 
+.video-game-button:hover {
+  background-color: rgb(45, 229, 76);
+  color: black;
+
+}
+
 .board-game-button {
   background-color: rgb(0, 0, 0);
   border-color: rgb(45, 229, 76);
@@ -77,6 +89,12 @@ li {
   margin: 20px;
 }
 
+.board-game-button:hover {
+  background-color: rgb(45, 229, 76);
+  color: black;
+
+}
+
 .home-button {
   background-color: rgb(0, 0, 0);
   border-color: rgb(45, 229, 76);
@@ -91,4 +109,19 @@ li {
   cursor: pointer;
   vertical-align: top;
   margin: 20px;
+}
+
+.home-button:hover {
+  background-color: rgb(45, 229, 76);
+  color: black;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
