@@ -1,10 +1,9 @@
-
 header {
   padding: 20px;
   margin: 20px;
-
-
+  
 }
+
 
 body {
   background-color: rgb(86, 53, 148);
@@ -18,130 +17,32 @@ li {
   font-family: 'Courier New', Courier, monospace;
 }
 
-#video-game-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
+#body-index2 {
+  background-image: url(images/luis-villasmil-ITFwHdPEED0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat background-position: right top;
+  background-attachment: scroll;
 }
 
-#board-game-img {
+#body-index3 {
+  background-image: url(images/dave-photoz-FdTmaUlEr4A-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat background-position: right top;
+  background-attachment: scroll;
+}
+
+#video-game-thumbnail {
   border-style: outset;
   border-radius: 10px;
   object-fit: scale-down;
   height: 150px;
 }
 
-#god-of-war-img {
+#board-game-thumbnail {
   border-style: outset;
   border-radius: 10px;
   object-fit: scale-down;
-  height: 170px;
-}
-
-#star-wars-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#fifa-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#zelda-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#call-of-duty-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#fall-guys-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#fortnite-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#cult-of-the-lamb-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#blokus-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#tokaido-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#splendor-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#pandemic-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#megaland-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#ticket-to-ride-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#machi-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
-}
-
-#takenoko-img {
-  border-style: outset;
-  border-radius: 10px;
-  object-fit: scale-down;
-  height: 170px;
+  height: 150px;
 }
 
 .video-game-button {
