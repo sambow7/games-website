@@ -123,6 +123,6 @@ li {
 }
 
 .column {
-  flex: 33.33%;
+  flex: 30px;
   padding: 1px;
 }
