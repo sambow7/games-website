@@ -1,3 +1,16 @@
+function greetUser(){
+  let name = prompt("What is your name?");
+  if(name ==""){
+    name = prompt("No but seriously what is your name?");
+  if(name =="Kassie"){
+    name = prompt("I thought you were going to say potato? One more time please, thanks.")     
+  } 
+  }  
+  console.log("hi, " + name);
+  return name;
+}
+greetUser();
+
 // alert("A name must be given to enter");
 // let usersName = prompt("A name must be given to enter");
 
@@ -14,15 +27,3 @@
 //   alert("Ello!")
 // }
 
-function greetUser(){
-  let name = prompt("What is your name?");
-  if(name ==""){
-    name = prompt("No but seriously what is your name?");
-  if(name =="Kassie"){
-    name = prompt("I thought you were going to say potato? One more time please, thanks.")     
-  } 
-  }  
-  console.log("hi, " + name);
-  return name;
-}
-greetUser();
