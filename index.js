@@ -6,15 +6,15 @@ function greetUser() {
     name = prompt("No but seriously what is your name?")
     }
   }
-  console.log("hi, " + name);
+  console.log("Hi, " + name);
   document.write("Welcome, I hope you like games " + name)
   return name;
 }
 greetUser();
 
 let usersNum = prompt("Pick a number of potatos between 1 & 7")
-for(let i = 0; i < usersNum; i++){
-  document.write("<img src='images/luis-villasmil-ITFwHdPEED0-unsplash.jpg' alt= 'picture of controller' />");
+for(let i = 1; i <= usersNum; i++){
+  document.write("<img src='images/luis-villasmil-ITFwHdPEED0-unsplash.jpg' alt= 'picture of controller' />" + i);
 }
 
 // alert("A name must be given to enter");
