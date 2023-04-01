@@ -1,12 +1,13 @@
-function greetUser(){
-  let name = prompt("What is your name?");
-  if(name ==""){
-    name = prompt("No but seriously what is your name?");
-  if(name =="Kassie"){
-    name = prompt("I thought you were going to say potato? One more time please, thanks.")     
-  } 
-  }  
+function greetUser() {
+  let name = prompt("Hi, what is your name?");
+  if (name == "Kassie") {
+    name == prompt("I thought you were going to say potato? potato, potahto");
+    if (name != "Potato") {
+    name = prompt("No but seriously what is your name?")
+    }
+  }
   console.log("hi, " + name);
+  document.write("Welcome " + name)
   return name;
 }
 greetUser();
