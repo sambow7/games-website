@@ -12,6 +12,11 @@ function greetUser() {
 }
 greetUser();
 
+let usersNum = prompt("Pick a number of potatos between 1 & 7")
+for(let i = 0; i < usersNum; i++){
+  document.write("<img src='images/luis-villasmil-ITFwHdPEED0-unsplash.jpg' alt= 'picture of controller' />");
+}
+
 // alert("A name must be given to enter");
 // let usersName = prompt("A name must be given to enter");
 
