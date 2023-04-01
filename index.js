@@ -7,7 +7,7 @@ function greetUser() {
     }
   }
   console.log("hi, " + name);
-  document.write("Welcome " + name)
+  document.write("Welcome, I hope you like games " + name)
   return name;
 }
 greetUser();
