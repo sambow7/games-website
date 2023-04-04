@@ -1,3 +1,5 @@
+
+
 function greetUser() {
   let name = prompt("Hi, what is your name?");
   if (name == "Kassie") {
@@ -12,11 +14,17 @@ function greetUser() {
 }
 greetUser();
 
-let usersNum = prompt("Pick a number of potatos between 1 & 7")
-for(let i = 1; i <= usersNum; i++){
-  document.write("<img src='images/luis-villasmil-ITFwHdPEED0-unsplash.jpg' alt= 'picture of controller' />" + i);
+let x = prompt("whats your favorite number?")
+while (x <= 0) {
+  console.log("#" + x);
+  
 }
 
+let usersNum = prompt("Pick a number of potatos?")
+for(let i = 1; i <= usersNum; i++){
+  document.write("<img src='http://clipart-library.com/data_images/211326.jpg' alt= 'picture of controller' />" + i);
+
+}
 // alert("A name must be given to enter");
 // let usersName = prompt("A name must be given to enter");
 
